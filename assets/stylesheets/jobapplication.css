@@ -1,0 +1,115 @@
+*{
+  margin: 0pt;
+  padding: 0pt;
+  border: 0pt;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  margin: 3px;
+  display: flex;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 1000px;
+}
+h2{
+  font-size: 8pt;
+  padding: 5px;
+}
+
+input{
+  color: grey;
+  font-style: italic;
+  padding: 5px;
+  color: #cdcecd;
+
+}
+
+.all-fields{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  border-width: thick;
+  border-style: solid;
+  border-color: #e4edf3;
+
+}
+
+.first-row{
+  display: flex;
+  width: 100%;
+}
+
+.second-row{
+  display: flex;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.third-row{
+  display: flex;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.one-field {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 10px;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e4edf3;
+  color: #969796;
+
+}
+
+#name{
+width: 50%;
+border-style: solid;
+
+}
+
+#company{
+width: 50%;
+
+}
+
+#phone{
+  width: 50%;
+
+}
+
+#email{
+width: 33%;
+}
+
+#availability{
+  width: 33%;
+}
+
+#skills{
+    width: 25%;
+}
+
+#experience{
+  width: 25%;
+}
+
+#language{
+  width: 25%;
+}
+
+#color{
+  width: 25%;
+}
